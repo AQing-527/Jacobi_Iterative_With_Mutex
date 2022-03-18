@@ -19,6 +19,9 @@ In the Jacobi method, we use two 2D arrays to store the temperature distribution
 
 ### Use multithreading and synchronization to improve the calculation effiency
 
+
+____
+
 ## To run the code:
 
 #### Use the default setings: rows = 200, columns = 200, threads = 2
@@ -26,7 +29,7 @@ In the Jacobi method, we use two 2D arrays to store the temperature distribution
 ./jacobi_cond
 ```
 
-### Use other parameters: e.g., rows = 400, columns = 400, threads = 8
+#### Use other parameters: e.g., rows = 400, columns = 400, threads = 8
 ```
 ./jacobi_cond 400 400 8
 ```
